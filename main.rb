@@ -1,5 +1,9 @@
 require_relative 'game'
 require_relative 'player'
+require_relative 'ui'
+require_relative 'question'
+
+UI.welcome
 
 player1 = Player.new(1)
 player2 = Player.new(2)
