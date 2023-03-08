@@ -22,6 +22,5 @@ module UI
 
   def self.announce_winner(winner)
     puts "Game over! #{winner} wins with a score of #{winner.lives}/3."
-    puts "Better luck next time, #{winner == winner.opponent ? winner.opponent.to_s + " (that's you)" : winner.opponent}."
   end
 end
